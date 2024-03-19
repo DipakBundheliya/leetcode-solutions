@@ -5,7 +5,7 @@ def selectData(students) :
     new_df.reset_index(inplace=True , drop=True)
     return new_df.drop('student_id' , axis=1)
 
-# Dummy data for test
+# Dummy data for testing
 data = {
         'student_id' : [101,2,3,4,4],
         'age' : [15,11,11,20,1]
